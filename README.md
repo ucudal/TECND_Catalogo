@@ -21,9 +21,9 @@
 
 ## Desafíos
 
-|  | Descripción | Link |
-|:--- |:--- |:--- |
-|1|Cloud computing para negocios digitales|<>|
+| # | Descripción |
+|:--- |:---|
+|1|[Cloud computing para negocios digitales](./laboratorio/laboratorio_cloud.md)|
 
 ## Referencias
 
