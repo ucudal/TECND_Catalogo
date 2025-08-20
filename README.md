@@ -23,7 +23,7 @@
 
 | # | Descripción |
 |:--- |:---|
-|1|[Cloud computing para negocios digitales](./laboratorio/laboratorio_cloud.md)|
+|1|[Cloud computing para negocios digitales](./laboratorios/laboratorio_cloud.md)|
 
 ## Referencias
 
