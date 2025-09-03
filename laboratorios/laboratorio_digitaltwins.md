@@ -134,7 +134,7 @@ def main(mytimer: func.TimerRequest) -> None:
 1. Crear una función que lea el estado del **gemelo digital** y accione el aire acondicionado si la temperatura es mayor a 23° y/o el deshumidificador si el porcentaje de humdad es mayor al 65%.
 ---
 
-### 6. Entregables
+### 7. Entregables
 - 📸 **Captura de pantalla** del modelo cargado en Azure Digital Twins.  
 - 📸 **Captura de pantalla** de la Function App ejecutándose (logs con datos simulados).  
 - 📸 **Captura de pantalla** del gemelo `DataCenter1` mostrando los valores actualizados.  
