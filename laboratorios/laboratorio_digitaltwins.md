@@ -138,7 +138,5 @@ def main(mytimer: func.TimerRequest) -> None:
 - 📸 **Captura de pantalla** del modelo cargado en Azure Digital Twins.  
 - 📸 **Captura de pantalla** de la Function App ejecutándose (logs con datos simulados).  
 - 📸 **Captura de pantalla** del gemelo `DataCenter1` mostrando los valores actualizados.  
-- 📝 Un **documento breve (máx. 1 página)** explicando cómo podrían automatizar acciones.  
-  - Ejemplo: *encender el aire acondicionado si la temperatura > 28 °C o activar un deshumidificador si la humedad > 70%*.
-
+- 📝 Un **documento breve (máx. 1 página)** explicando qué otras acciones podrían implementar.  
 ---
