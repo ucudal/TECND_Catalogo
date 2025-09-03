@@ -1,11 +1,12 @@
 # Laboratorio: Simulación de un Data Center con Azure Digital Twins
 
 ## 🎯 Objetivo
-En este laboratorio los estudiantes aprenderán a:
+El objetivo de este es:
 - Crear y configurar un modelo de **Digital Twin** en **Azure Digital Twins**.
 - Desplegar una **Function App en Azure** que simule datos de sensores (temperatura).
 - Conectar la Function App con Azure Digital Twins y actualizar propiedades de un gemelo digital.
 - Visualizar y monitorear los datos simulados.
+- Desplegar otra **Function App en Azure** que permita accionar sistemas de control como aire acondicionado o deshumidificadores.
 
 ---
 
@@ -20,9 +21,8 @@ En una segunda etapa, se podrán definir reglas para accionar sistemas de contro
 ## 🚀 Pasos
 
 ### 1. Crear un recurso de Azure Digital Twins
-1. Ingresar al [Azure Portal](https://portal.azure.com).
-2. Crear un nuevo recurso → **Azure Digital Twins**.
-3. Anotar la **URL de la instancia** (ejemplo: `https://<nombre>.api.<region>.digitaltwins.azure.net`).
+1. Crear un nuevo recurso → **Azure Digital Twins**.
+2. Anotar la **URL de la instancia** (ejemplo: `https://<nombre>.api.<region>.digitaltwins.azure.net`).
 
 ---
 
@@ -128,11 +128,10 @@ def main(mytimer: func.TimerRequest) -> None:
 
 ```
 ### 5. Verificar datos
-1. Abrir la herramienta **Azure Digital Twins Explorer** (puede instalarse desde Azure Portal o usar la versión web).  
-2. Conectarse a la instancia creada.  
-3. Seleccionar el gemelo `DataCenter1`.  
-4. Observar cómo se actualizan las propiedades de **temperatura**, **humedad**, **voltaje** y **consumo eléctrico** con cada ejecución de la Function App.
+1. Desde **Azure Digital Twins Explorer**, observar cómo se actualizan las propiedades de **temperatura**, **humedad**, **voltaje** y **consumo eléctrico** con cada ejecución de la Function App.
 
+### 6. Crear una nueva Function App en Azure
+1. Crear una función que lea el estado del **gemelo digital** y accione el aire acondicionado si la temperatura es mayor a 23° y/o el deshumidificador si el porcentaje de humdad es mayor al 65%.
 ---
 
 ### 6. Entregables
