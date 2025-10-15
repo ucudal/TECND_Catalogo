@@ -48,7 +48,7 @@ Sugerencias:
 - Explorar ejemplos con **A-Frame + AR.js**.
 - Probar diferentes tipos de entidades (`a-plane`, `a-box`, `a-text`, `a-entity` con modelos 3D).
 - Agregar interactividad con eventos JavaScript (`markerFound`, `markerLost`).
-- Experimentar con **modelos 3D livianos (.glb / .gltf)**.
+- Explorar la creación de nuevos patrones para los marcadores.
 
 ---
 
