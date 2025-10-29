@@ -127,3 +127,7 @@ pred = model.predict(X_test[:5])
 
 - Agregar predicción de género además de edad.
 - Crear una demo interactiva en Streamlit o en Colab que permita subir una imagen.
+
+##  📦 Entregables
+
+1. Breve informe con conclusiones y métricas de precisión y precisión por clase. (para este ejercicio podemos usar solo 10 imágenes de rostros conocidos)
