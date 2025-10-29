@@ -12,8 +12,8 @@ El modelo deberá clasificar las imágenes en **cuatro categorías** de edad:
 
 - 👶 **Niño:** 0–12 años  
 - 🧒 **Joven:** 13–25 años  
-- 🧑 **Adulto:** 26–50 años  
-- 👴 **Mayor:** 51+ años
+- 🧑 **Adulto:** 26–59 años  
+- 👴 **Mayor:** 60+ años
 
 ---
 
@@ -123,3 +123,7 @@ plt.show()
 pred = model.predict(X_test[:5])
 
 ```
+## 💡 Extensiones opcionales
+
+- Agregar predicción de género además de edad.
+- Crear una demo interactiva en Streamlit o en Colab que permita subir una imagen.
