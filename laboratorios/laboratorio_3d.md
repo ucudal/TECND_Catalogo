@@ -83,7 +83,7 @@ Una vez que todos los grupos completen su modelo:
 - Pueden importar modelos ya pre existentes y ajustar la relación.
 - Los equipos integrarán sus modelos en un único archivo conjunto (No está permitido modificar los modelos de otros equipos).
 - Ajustarán los ejes y las orientaciones para lograr la **transmisión continua desde la décima de segundo hasta el año**.  
-- Simularán el sistema completo en movimiento (rotación sincronizada con Tinkercad SimLab).
+- Simularán la impresión utilizando Tinkercad SimLab.
 
 *(El objetivo no es lograr precisión absoluta, sino mostrar la coherencia del diseño y la comprensión de los principios)*
 
