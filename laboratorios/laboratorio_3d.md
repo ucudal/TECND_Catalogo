@@ -56,13 +56,13 @@ Cada equipo diseña un **módulo de engranajes** que reduzca la velocidad adecua
 
 Cada grupo debe calcular cuántos dientes deben tener sus engranajes para obtener esa relación, considerando:
 
-\[
+$$
 \text{Relación} = \frac{Z_{\text{conducido}}}{Z_{\text{conductor}}}
-\]
+$$
 
 Donde:
-- \( Z_{\text{conductor}} \): dientes del engranaje que impulsa  
-- \( Z_{\text{conducido}} \): dientes del engranaje arrastrado
+- Z<sub>conductor</sub>: dientes del engranaje que impulsa  
+- Z<sub>conducido</sub>: dientes del engranaje arrastrado
 
 ---
 
@@ -78,9 +78,9 @@ Donde:
 
 ## 🧩 Entregable final (integración)
 
-Una vez que todos los grupos completen su módulo:
+Una vez que todos los grupos completen su modelo:
 
-- Los equipos integrarán sus modelos en un único archivo CAD conjunto (No está permitido modificar los modelos de otros equipos)
+- Los equipos integrarán sus modelos en un único archivo conjunto (No está permitido modificar los modelos de otros equipos).
 - Ajustarán los ejes y las orientaciones para lograr la **transmisión continua desde la décima de segundo hasta el año**.  
 - Simularán el sistema completo en movimiento (rotación sincronizada).  
 
